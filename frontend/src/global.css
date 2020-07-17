@@ -1,0 +1,171 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font:400 20px ConcordW00-Regular, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    background: #F3FBFD;
+}
+
+input, button, textarea {
+    font: 400 15px ConcordW00-Regular, sans-serif;
+}
+
+p {
+    font: 400 15px ConcordW00-Regular, sans-serif;
+}
+
+button {
+    cursor: pointer;
+}
+
+.main{
+    padding-top: 140px;
+}
+
+.button {
+    height: 40px;
+    background: #FFFFFF;
+    border-radius: 12px;
+    border-color: #27ABBF;
+    border-style: solid;
+    border-width: thin;
+    color: #27ABBF;
+    text-decoration: none;
+    text-align: center;
+    font-size: 15px;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
+    transition: 0.2s;
+}
+
+.button:hover{
+    background: #27ABBF;
+    color: #FFFFFF;
+    box-shadow: inset 0px 0px 2px rgba(0, 0, 0, 0.25);
+}
+
+
+.menu-container {
+    position: fixed;
+    display: block;
+    width: 100%;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    background-color: #FFFFFF;
+    z-index: 9999;
+}
+
+.menu-container .information-container{
+    width: 100%;
+    height: 60px;
+    background: #27ABBF;
+
+}
+
+.menu-container .menus{
+    width: 100%;
+    height: 80px;
+    padding: 0 104px 0 104px;
+    display: inline-flex;
+
+}
+
+.menu-container .menus img{
+    max-height: 80px;
+}
+
+.menu-container .menus ul{
+    margin: 25px 120px 25px 120px;
+    align-items: center;
+}
+
+.menu-container .menus ul li{
+    display: inline-block;
+    padding-left: 30px;
+
+}
+
+
+.menu-container .menus ul li a{
+    color: #27ABBF;
+    text-decoration: none;
+}
+
+.menu-container .menus ul li a:hover{
+    text-decoration: underline;
+}
+
+.menu-container .menus .button {
+    margin-top: 15px;
+    width: 70px;
+}
+
+
+
+.footer-container{
+    position: relative;
+    display: block;
+}
+
+
+.footer-container .contact{
+    width: 100%;
+    height: 150px;
+    background: #27ABBF;
+    padding-top: 30px;
+    
+}
+
+.footer-container .contact ul{
+    display: grid;
+    grid-template-columns: repeat(3, 2fr);
+    grid-gap: 24px;
+    list-style: none;
+}
+
+.footer-container .contact ul li{
+    padding-top: 10px;
+    text-align: center;
+    color: #ffffff;
+}
+
+.footer-container .cnpj{
+    width: 100%;
+    height: 100px;
+    background: #ffffff; 
+}
+
+.footer-container .cnpj p{
+    text-align: center;
+    color: #606060;
+    padding-top: 15px;
+}
+
+.footer-container .cnpj h5{
+    text-align: center;
+    color: #27ABBF;
+    padding-top: 15px;
+}
+
+.pagination {
+    padding-top: 50px;
+    padding-bottom: 30px;
+    text-align: center;
+    color: #27ABBF;
+
+}
+
+.pagination a{
+    padding: 20px;
+    text-decoration: none;
+    color: #27ABBF;
+}
+
+.pagination a:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
